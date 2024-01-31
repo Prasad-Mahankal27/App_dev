@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/pm/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/pm/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/pm/build" />
+      <excludeFolder url="file://$MODULE_DIR$/course/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/course/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/course/build" />
+      <excludeFolder url="file://$MODULE_DIR$/expense/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/expense/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/expense/build" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_yt/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_yt/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/flutter_yt/build" />
+      <excludeFolder url="file://$MODULE_DIR$/quiz/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/quiz/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/quiz/build" />
+      <excludeFolder url="file://$MODULE_DIR$/vedant_new/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/vedant_new/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/vedant_new/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>
