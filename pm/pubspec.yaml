@@ -20,4 +20,5 @@ flutter:
 
 assets:
   - ".dart_tool/assets/download.png"
+  - ".dart_tool/assets/audi.jpg"
 
