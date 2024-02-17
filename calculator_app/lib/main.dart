@@ -6,16 +6,13 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: "Calculator App",
-      theme: ThemeData(
-        primarySwatch: Colors.red,
-      ),
-      home: const HomePage(),
+      home: HomePage(),
     );
   }
 }

@@ -21,6 +21,12 @@
       <excludeFolder url="file://$MODULE_DIR$/vedant_new/.dart_tool" />
       <excludeFolder url="file://$MODULE_DIR$/vedant_new/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/vedant_new/build" />
+      <excludeFolder url="file://$MODULE_DIR$/gdnotes/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/gdnotes/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/gdnotes/build" />
+      <excludeFolder url="file://$MODULE_DIR$/gdsc/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/gdsc/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/gdsc/build" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
