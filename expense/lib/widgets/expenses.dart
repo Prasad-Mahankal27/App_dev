@@ -1,4 +1,5 @@
 import 'package:expense/models/expense.dart';
+import 'package:expense/widgets/chart/chart.dart';
 import 'package:expense/widgets/new_expense.dart';
 import 'package:flutter/material.dart';
 import 'package:expense/widgets/expenses_list/expenses_list.dart';
@@ -58,7 +59,7 @@ void _openAddExpenseOverlay(){
 
 //  Navigator.push(context, MaterialPageRoute(builder: (ctx)=>NewExpense(onAddExpense: _addExpense)));
 showModalBottomSheet(
-  // isScrollControlled: true,
+   //isScrollControlled: true,
   context: context, 
   builder: (ctx) => NewExpense(onAddExpense: _addExpense,),
 );
@@ -86,6 +87,7 @@ mainContent = ExpensesList(expenses: _registeredExpenses, onRemoveExpense: _remo
     ),
     body: Column(
       children: [
+        Chart(expenses: _registeredExpenses),
       //  const Text("Expenses List..."),
         Expanded(child: mainContent),
       ],
